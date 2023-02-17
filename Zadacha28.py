@@ -7,11 +7,11 @@ a = int(input("Введите число A: "))
 b = int(input("Введите число B: "))
 
 
-def result(A, B):
-    if (B == 0):
-        return A
+def result(a, b):
+    if (b == 0):
+        return a
     else:
-        return result(A+1, B-1)
+        return result(a+1, b-1)
 
 
 if (a >= b):
